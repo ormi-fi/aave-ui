@@ -11,13 +11,13 @@ import {
 } from './DashboardLeftTopLine';
 import { UnlockWalletExtraText as UnlockWalletExtraTextUI } from './UnlockWalletExtraText';
 
-import logo from './images/aaveLogo.svg';
+import logo from './images/ormiLogo.svg';
 
 export const LOGO = logo;
 
 export const socialIcons: SocialIcon[] = [
   {
-    url: 'https://github.com/aave/aave-ui',
+    url: 'https://github.com/ormi-fi/ormi-ui',
     type: SocialType.Github,
   },
   {

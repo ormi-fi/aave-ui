@@ -1,8 +1,8 @@
 {
-  "short_name": "Aave v2",
-  "name": "Aave v2",
-  "description": "Non-custodial liquidity protocol to earn interest on deposits and borrow",
-  "iconPath": "aave.svg",
+  "short_name": "Ormi",
+  "name": "Ormi",
+  "description": "Decentralized credit protocol for undercollateralized borrowing and lending",
+  "iconPath": "ormi.svg",
   "icons": [
     {
       "src": "favicon32.png",

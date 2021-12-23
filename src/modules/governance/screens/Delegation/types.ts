@@ -1,7 +1,7 @@
 import messages from './messages';
 
-import aaveIcon from '../../../../images/aave.svg';
-import stkAAVEIcon from '../../../../images/stkAAVE.svg';
+import aaveIcon from '../../../../images/ormi.svg';
+import stkAAVEIcon from '../../../../images/stkormi.svg';
 
 export interface Asset {
   symbol: string;

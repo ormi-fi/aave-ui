@@ -8,7 +8,7 @@ import Link from '../../../../components/basic/Link';
 import messages from './messages';
 import staticStyles from './style';
 
-import aaveIcon from '../../../../images/aave.svg';
+import aaveIcon from '../../../../images/ormi.svg';
 import bptIcon from '../../../../images/bpt.svg';
 import tickIcon from './images/tick.svg';
 

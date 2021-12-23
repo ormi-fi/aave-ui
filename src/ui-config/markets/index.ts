@@ -17,7 +17,7 @@ export enum CustomMarket {
 export const marketsData: { [key in keyof typeof CustomMarket]: MarketDataType } = {
   [CustomMarket.proto_kovan]: {
     chainId: ChainId.kovan,
-    logo: logos.aavev2Logo,
+    logo: logos.ormiv2Logo,
     activeLogo: logos.aavev2ActiveLogo,
     aTokenPrefix: 'A',
     enabledFeatures: {
@@ -35,7 +35,7 @@ export const marketsData: { [key in keyof typeof CustomMarket]: MarketDataType }
   },
   [CustomMarket.proto_mainnet]: {
     chainId: ChainId.mainnet,
-    logo: logos.aavev2Logo,
+    logo: logos.ormiv2Logo,
     activeLogo: logos.aavev2ActiveLogo,
     aTokenPrefix: 'A',
     enabledFeatures: {
@@ -78,8 +78,8 @@ export const marketsData: { [key in keyof typeof CustomMarket]: MarketDataType }
   },
   [CustomMarket.proto_mumbai]: {
     chainId: ChainId.mumbai,
-    logo: logos.aaveLogo,
-    activeLogo: logos.aaveActiveLogo,
+    logo: logos.ormiLogo,
+    activeLogo: logos.ormiActiveLogo,
     subLogo: logos.polygon,
     aTokenPrefix: 'AM',
     enabledFeatures: {
@@ -95,8 +95,8 @@ export const marketsData: { [key in keyof typeof CustomMarket]: MarketDataType }
   },
   [CustomMarket.proto_matic]: {
     chainId: ChainId.polygon,
-    logo: logos.aaveLogo,
-    activeLogo: logos.aaveActiveLogo,
+    logo: logos.ormiLogo,
+    activeLogo: logos.ormiActiveLogo,
     subLogo: logos.polygon,
     aTokenPrefix: 'AM',
     enabledFeatures: {
@@ -112,8 +112,8 @@ export const marketsData: { [key in keyof typeof CustomMarket]: MarketDataType }
   },
   [CustomMarket.proto_fuji]: {
     chainId: ChainId.fuji,
-    logo: logos.aaveLogo,
-    activeLogo: logos.aaveActiveLogo,
+    logo: logos.ormiLogo,
+    activeLogo: logos.ormiActiveLogo,
     subLogo: logos.avalanche,
     aTokenPrefix: 'AAVA',
     enabledFeatures: {
@@ -129,8 +129,8 @@ export const marketsData: { [key in keyof typeof CustomMarket]: MarketDataType }
   },
   [CustomMarket.proto_avalanche]: {
     chainId: ChainId.avalanche,
-    logo: logos.aaveLogo,
-    activeLogo: logos.aaveActiveLogo,
+    logo: logos.ormiLogo,
+    activeLogo: logos.ormiActiveLogo,
     subLogo: logos.avalanche,
     aTokenPrefix: 'AV',
     enabledFeatures: {

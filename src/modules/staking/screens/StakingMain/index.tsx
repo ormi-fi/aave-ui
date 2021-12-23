@@ -11,7 +11,7 @@ import TextFAQLink from '../../components/TextFAQLink';
 import messages from './messages';
 import staticStyles from './style';
 
-import aaveIcon from '../../../../images/aave.svg';
+import aaveIcon from '../../../../images/ormi.svg';
 import bptIcon from '../../../../images/bpt.svg';
 
 export default function StakingMain() {

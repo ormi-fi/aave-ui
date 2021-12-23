@@ -14,7 +14,7 @@ import messages from './messages';
 import staticStyles from './style';
 
 import linkIcon from '../../../../images/linkIcon.svg';
-import aaveIcon from '../../../../images/aave.svg';
+import aaveIcon from '../../../../images/ormi.svg';
 import bptIcon from '../../../../images/bpt.svg';
 
 import { faqLink } from '../../index';
